@@ -1,0 +1,151 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #df4b5c;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+}
+
+.logo img {
+    max-width: 100px;
+    height: auto;
+}
+
+.search input {
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+}
+
+.search button {
+    background-color: #ff5722;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.cart a {
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+}
+
+.cart img {
+    max-width: 15px;
+    height: auto;
+    margin-right: 5px;
+}
+
+
+.slideshow {
+    width: 100%;
+    overflow: hidden;
+}
+
+.slide {
+    width: 100%;
+    height: auto;
+    display: none;
+}
+.category-item {
+    
+    text-align: center;
+    background-color: #f9f9f9;
+    padding: 20px;
+ 
+}
+
+.title a {
+    text-decoration: none;
+    font-size: 24px;
+    color: #333;
+}
+
+.page-body {
+    margin-top: 20px;
+}/* CSS cho sản phẩm trong danh mục */
+/* CSS cho sản phẩm trong danh mục */
+.item-box {
+    flex: 0 0 calc(25% - 20px); /* Hiển thị 4 sản phẩm trên một dòng */
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 5px;
+    border-radius: 5px;
+    text-align: center;
+    transition: transform 0.2s, box-shadow 0.2s; /* Hiệu ứng transition */
+}
+
+.item-box:hover {
+    transform: scale(0.95); /* Thu nhỏ sản phẩm khi di chuột vào */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Hiệu ứng đổ bóng khi di chuột vào */
+}
+
+/* Đảm bảo rằng các sản phẩm nằm chặt nhau */
+.product-grid {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Đảm bảo rằng các sản phẩm sẽ cách nhau bên trong container */
+.products-container {
+    overflow: hidden;
+}
+
+/* Xóa lề bên phải của sản phẩm cuối cùng trên mỗi dòng */
+.clear {
+    clear: both;
+    width: 100%;
+}
+
+
+
+
+.product-item {
+    position: relative;
+}
+
+.picture img {
+    max-width: 100%;
+    height: auto;
+}
+
+.product-title a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    display: block;
+}
+
+.prices {
+    margin-top: 10px;
+}
+
+.price-ratio {
+    background-color: #ff5722;
+    color: #fff;
+    padding: 2px 5px;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+.old-price {
+    text-decoration: line-through;
+    color: #999;
+}
+
+.actual-price {
+    font-weight: bold;
+}
